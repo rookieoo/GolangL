@@ -9,3 +9,11 @@ ssh-keygen -t rsa
 
 测试是否连接
 ssh -T git@github.com
+
+
+
+将完成的文件上传
+1. 在远程添加仓库
+2. git branch -M main
+3. git remote add origin https://github.com/rookieoo/GolangL.git
+4. git push -u origin main
