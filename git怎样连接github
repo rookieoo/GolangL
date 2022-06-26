@@ -1,0 +1,11 @@
+git config --global user.name "rookieoo"
+git config --global user.email "solomonrookie@163.com"
+
+
+在新的文件中git init
+
+生成公钥
+ssh-keygen -t rsa
+
+测试是否连接
+ssh -T git@github.com
